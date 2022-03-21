@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Development Dicoding x Bangkit/LoopJdanParsingJSON/app/src/main/res/layout/activity_list_of_quotes.xml" value="0.22554347826086957" />
         <entry key="..\:/Android Development Dicoding x Bangkit/LoopJdanParsingJSON/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/Android Development Dicoding x Bangkit/LoopJdanParsingJSON/app/src/main/res/layout/activity_quotes_list.xml" value="0.3328125" />
+        <entry key="..\:/Android Development Dicoding x Bangkit/LoopJdanParsingJSON/app/src/main/res/layout/quote_layout.xml" value="0.33" />
       </map>
     </option>
   </component>

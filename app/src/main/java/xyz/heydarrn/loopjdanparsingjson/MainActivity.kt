@@ -1,5 +1,6 @@
 package xyz.heydarrn.loopjdanparsingjson
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -23,6 +24,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(mainActivityBinding.root)
 
         showRandomQuotes()
+
+        mainActivityBinding.buttonToListQuote.setOnClickListener {
+            val openQuoteList=Intent(this@MainActivity,QuotesListActivity::class.java)
+            startActivity(openQuoteList)
+        }
     }
 
     private fun showRandomQuotes(){
@@ -70,7 +76,7 @@ class MainActivity : AppCompatActivity() {
                     else -> "$statusCode : ${error?.message}"
                 }
 
-                Toast.makeText(this@MainActivity,httpResponseCode,Toast.LENGTH_SHORT)
+                Toast.makeText(this@MainActivity,httpResponseCode,Toast.LENGTH_SHORT).show()
             }
 
         })
